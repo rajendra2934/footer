@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: end;
+    height: 100vh;
+    font-family: "Anta", sans-serif;
+
+
+} 
+footer{
+    display: flex; 
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 0%;
+
+}
+
+#left{
+    width: 60%;
+     /* background-color: chartreuse;  */
+    display: flex;
+
+}
+
+#right{
+    width: 30%;
+    /* background-color: orangered; */
+    display: flex;
+    border-left: 2px solid grey;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+
+}
+
+h3{
+    font-size: 12px;
+    color: rgb(82, 77, 77);
+}
+
+li{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
